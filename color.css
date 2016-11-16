@@ -1,0 +1,23 @@
+.color-1{
+    background-color: rgba(90, 170, 200, 0.9);
+}
+
+.color-1:hover {
+    background: linear-gradient(to bottom right, rgba(100, 170, 220, 0.8), rgba(0, 0, 0, 0.2));
+}
+
+.color-2 {
+    background-color: rgba(100, 126, 220, 0.7);
+}
+
+.color-2:hover {
+    background-color: rgba(120, 160, 180, 0.8);
+}
+
+.color-3 {
+    background-color: rgba(239, 150, 200, 0.5);
+}
+
+.color-3:hover {
+    background-color: rgba(200, 150, 220, 0.8);
+}

@@ -1,0 +1,11 @@
+html,
+body,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.center {
+    margin: 0 auto;
+    
+}

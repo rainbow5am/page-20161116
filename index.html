@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <link rel="stylesheet" type="text/css" href="color.css">
+    <link rel="stylesheet" type="text/css" href="center.css">
+    <link rel="stylesheet" type="text/css" href="title.css">
+</head>
+
+<body>
+    <div class="center">
+        <form class="iris-form form">
+            <div class="title">A compact inline form</div>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="Password">
+            <label for="remember">
+                <input id="remember" type="checkbox">Remember me
+            </label>
+            <button type="submit" class="button button-small color-1">Sign in</button>
+        </form>
+        <form class="iris-form iris-form-stacked form">
+            <div class="title">A Stacked Form</div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password">
+            <label for="remember-1">
+                <input id="remember-1" type="checkbox">Remember me
+            </label>
+            <button type="submit" class="button button-small color-1">Sign in</button>
+        </form>
+        <form class="iris-form iris-form-aligned form">
+            <div class="title">Aligned Form</div>
+            <div class="iris-control-group">
+                <label for="name">Usernmae</label>
+                <input id="name" type="text" placeholder="Usernmae">
+            </div>
+            <div class="iris-control-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Password">
+            </div>
+            <div class="iris-control-right">
+            <label for="remember-2">
+                <input id="remember-2" type="checkbox">Remember me
+            </label></div>
+            <div class="iris-control-right">
+            <button type="submit" class="button button-small color-1">Sign in</button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+
+</html>

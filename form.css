@@ -1,0 +1,68 @@
+.iris-form input[type="email"],
+.iris-form input[type="password"],
+.iris-form input[type="text"],
+.iris-form select,
+.iris-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 2px #ddd;
+    border-radius: 0.4em;
+    box-sizing: border-box;
+}
+
+.iris-form input[type="email"]:focus,
+.iris-form input[type="password"]:focus,
+.iris-form input[type="text"]:focus,
+.iris-form select:focus,
+.iris-form textarea:focus {
+    outline: none;
+    border-color: #7c7bc7;
+    box-shadow: 0 0 0.5em #a2def9;
+}
+
+.iris-form label {
+    margin: 0.5em 0 0.2em;
+    font-size: 80%;
+    color: #999;
+}
+
+.iris-form-stacked input[type="email"],
+.iris-form-stacked input[type="password"],
+.iris-form-stacked label,
+.iris-form-stacked select,
+.iris-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0;
+}
+
+.iris-form-aligned input,
+.iris-form-aligned select,
+.iris-form-aligned textarea {
+    display: inline-block;
+    vertical-align: middle;
+}
+.iris-form-aligned .iris-control-group {
+	margin-bottom: 0.5em;
+}
+
+.iris-form-aligned .iris-control-group label{
+	text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    /*width: 10em;*/
+    margin: 0 1em 0 0;
+}
+.iris-control-right{
+	margin: 0.4em 0 0 4em;
+	display: block;
+}
+
+.form{
+	padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 0 2px #ccc;
+}
